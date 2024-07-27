@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Match Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Match Challenge</h1>
+        <div class="color-box" id="targetColor"></div>
+        <div class="color-box" id="userColor"></div>
+        <div class="sliders">
+            <label for="red">Red: <span id="redValue">0</span></label>
+            <input type="range" id="red" name="red" min="0" max="255">
+            <label for="green">Green: <span id="greenValue">0</span></label>
+            <input type="range" id="green" name="green" min="0" max="255">
+            <label for="blue">Blue: <span id="blueValue">0</span></label>
+            <input type="range" id="blue" name="blue" min="0" max="255">
+        </div>
+        <button id="checkColor">Check Color</button>
+        <div class="score" id="score">Score: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
